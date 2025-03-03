@@ -19,7 +19,7 @@ public class ProducerDemo {
 
         Properties props = new Properties();
 
-        props.setProperty("bootstrap.servers", "127.0.0.1:29092");
+        props.setProperty("bootstrap.servers", "127.0.0.1:9092");
 
         props.setProperty("key.serializer", StringSerializer.class.getName());
         props.setProperty("value.serializer", StringSerializer.class.getName());
